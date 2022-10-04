@@ -1,8 +1,10 @@
 package Atv06POO;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Funcionario {
+    ArrayList<Dependente> Dependente = new ArrayList<>();
     private Integer matricula;
     private String nomeCompleto;
     private String cpf;
@@ -10,8 +12,6 @@ public class Funcionario {
     private Integer sexo;
     private double salario;
     private int telefone;
-    private Dependente dependente;
-    
     public Integer getMatricula() {
         return matricula;
     }
@@ -68,12 +68,5 @@ public class Funcionario {
         this.telefone = telefone;
     }
 
-    public Dependente getDependente() {
-        return dependente;
-    }
-    
-    public void setDependente(Dependente dependente) {
-        this.dependente = dependente;
-    }
 
 }
