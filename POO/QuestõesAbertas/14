@@ -1,0 +1,31 @@
+14. A partir da classe abaixo, extraia o seu padrão/modelo (superclasse/interface).
+Atente aos métodos herdados, explicitados pela anotação @Override.
+
+public interface Dados {
+
+    public void excluir(Transporte t);
+    
+    public void adcionar(Transporte t) throws Exception;
+    
+}
+
+public class DadosImpl implements Dados {
+    
+    private ArrayList<Transporte> lista = new ArrayList<>();
+
+    @Override
+    public void adcionar(Transporte t) throws Exception {
+        lista.add(t);
+    }
+
+    @Override
+    public void excluir(Transporte t){
+        lista.remove(t);
+    }
+}
+
+package Atv14;
+
+public class Transporte {
+    
+}

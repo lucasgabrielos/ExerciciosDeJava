@@ -1,0 +1,13 @@
+13. O que compõe a assinatura de um método? Exemplifique.
+
+R= A assinatura de um método é composta por: 
+
+visibilidade – tipo de permissão ao método. 
+retorno – tipo de retorno do método ou void caso não tenha retorno. 
+parâmetros – atributos utilizados dentro do processamento do método.
+
+public void exemplo(int Exemplo){
+//Visibilidade, retorno ,parâmetros 
+}
+
+fonte de pesquisa: http://www.universidadejava.com.br/java/java-assinatura-metodo/#:~:text=A%20assinatura%20de%20um%20m%C3%A9todo,dentro%20do%20processamento%20do%20m%C3%A9todo.
